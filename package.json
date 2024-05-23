@@ -1,11 +1,23 @@
 {
-  "dependencies": {
-    "chai-as-promised": "^7.1.2",
-    "selenium-webdriver": "^4.19.0"
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
+  "scripts": {
+    "test": "mocha test/**/*.mjs --timeout 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@babel/register": "^7.23.7",
-    "chai": "^4.4.1",
+    "chai": "^5.1.1",
     "mocha": "^10.4.0"
+  },
+  "dependencies": {
+    "allure-mocha": "^2.15.1",
+    "selenium-webdriver": "^4.21.0"
   }
 }
